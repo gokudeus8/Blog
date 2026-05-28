@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotos — Marino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">Marino</a>
+    <div class="nav-links">
+      <a href="fotos.html" class="active">fotos</a>
+      <a href="escrever.html">escritos</a>
+      <a href="sobre.html">sobre</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="fotos-header">
+      <h1>fotos</h1>
+    </div>
+
+    <!--
+      COMO ADICIONAR FOTOS:
+      1. Coloque o arquivo de imagem dentro da pasta /fotos/
+      2. Copie um dos blocos <div class="grid-item"> abaixo
+      3. Troque o src pelo nome do seu arquivo
+      
+      Classes:
+        .tall  → foto ocupa 2 linhas (vertical/retrato)
+        .wide  → foto ocupa 2 colunas (horizontal/paisagem)
+        (nada) → tamanho padrão
+      
+      Não há limite de fotos — adicione quantas quiser.
+    -->
+    <div class="fotos-grid">
+      <div class="grid">
+
+        <div class="grid-item tall">
+          <img src="fotos/foto1.jpg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="fotos/foto2.jpg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="fotos/foto3.jpg" alt="">
+        </div>
+        <div class="grid-item wide">
+          <img src="fotos/foto4.jpg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="fotos/foto5.jpg" alt="">
+        </div>
+        <div class="grid-item tall">
+          <img src="fotos/foto6.jpg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="fotos/foto7.jpg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="fotos/foto8.jpg" alt="">
+        </div>
+        <div class="grid-item wide">
+          <img src="fotos/foto9.jpg" alt="">
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <span>Marino © 2026</span>
+    <div class="footer-links">
+      <a href="https://vsco.co/marinohs" target="_blank">vsco</a>
+    </div>
+  </footer>
+
+</body>
+</html>
